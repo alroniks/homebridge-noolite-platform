@@ -1,5 +1,4 @@
 {
-  "private": true,
   "displayName": "NooLite Integration",
   "name": "homebridge-nootlite-platform",
   "version": "0.1.0",
@@ -9,7 +8,7 @@
     "noo-lite", "noolite", "integration", "belarus"
   ],
   "homepage": "https://github.com/alroniks/homebridge-noolite-platform#readme",
-  "repository": "github:alroniks/homebridge-noolite-platform",
+  "repository": "https://github.com/alroniks/homebridge-noolite-platform.git",
   "bugs": {
     "url": "https://github.com/alroniks/homebridge-noolite-platform/issues",
     "email": "alroniks+noolite@gmail.com"
@@ -30,6 +29,9 @@
       "url": "https://patreon.com/ivanklimchuk"
     }
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "engines": {
     "node": ">=14.18.1",
     "homebridge": ">=1.3.5"
