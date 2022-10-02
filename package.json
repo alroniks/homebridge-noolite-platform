@@ -1,6 +1,6 @@
 {
   "displayName": "NooLite Integration",
-  "name": "homebridge-nootlite-platform",
+  "name": "@alroniks/homebridge-nootlite-platform",
   "version": "0.1.0",
   "description": "NooLite platform integration for Apple HomeKit via Homebridge",
   "keywords": [
@@ -30,6 +30,7 @@
     }
   ],
   "publishConfig": {
+    "access": "restricted",
     "registry": "https://npm.pkg.github.com"
   },
   "engines": {
